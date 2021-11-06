@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      {% if title %}
+      <title>Mindroid - {{ title }}</title>
+      {% else %}
+      <title>Mindroid</title>
+      {% endif %}
+
+  </head>
+  <body>
+    {% block content %}{% endblock %}
+  </body>
+</html>
