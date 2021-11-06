@@ -1,0 +1,11 @@
+nav {
+    background-color: transparent;
+}
+
+img {
+    width: 170px;
+    height: 90px;
+    object-fit: cover;
+    margin: 20px 40px;
+    border-radius: 30px;
+}
