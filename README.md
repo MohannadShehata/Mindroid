@@ -1,0 +1,2 @@
+# Mindroid
+Newhacks project
