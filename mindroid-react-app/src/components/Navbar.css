@@ -2,10 +2,47 @@ nav {
     background-color: transparent;
 }
 
-img {
+.name {
+    display: none;
+}
+
+.logo-desktop {
     width: 170px;
     height: 90px;
     object-fit: cover;
     margin: 20px 40px;
     border-radius: 30px;
+}
+
+.logo-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+      background-image: linear-gradient( to right, #DC143c, #FF0000, #ff4500, #ffA500, #ffd700);
+      height: 120px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .logo-desktop {
+        display: none;
+    }
+
+    .logo-mobile {
+        display: inline;
+        height: 60px;
+        border-radius: 100px;
+        margin: 0 30px;
+        margin-top: 15px;
+    }
+
+    .name {
+        display: block;
+        margin: 0;
+        color: #ffffff;
+    }
+
 }
