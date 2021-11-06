@@ -2,6 +2,37 @@
   text-align: center;
 }
 
+.text_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+
+.text {
+  width: 80vw;
+}
+
+.str-chat-channel.messaging {
+  height: 80vh;
+  padding: 0;
+  background-color: transparent;
+}
+
+.str-chat.str-chat-channel.messaging {
+  background-color: transparent;
+}
+
+.str-chat__header-hamburger {
+  display: none;
+}
+
+.str-chat__input-flat.str-chat__input-flat--send-button-active.null {
+  border-radius: 0 0 10px 10px;
+}
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -34,5 +65,12 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .text {
+    width: 100vw;
+    height: 80vh;
   }
 }
