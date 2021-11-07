@@ -1,12 +1,14 @@
 {% extends "layout.html" %}
 
 {% block content%}
-  <h1> THIS IS HOME PAGE </h1>
   <form method="POST">
-    <h3 align="center"> Sign Up </h3>
-    <div> 
-      <label for="message"> Message </label>
-      <input type="message" id="message" name="message" placeholder="Enter Message"/>
+    <h3 align="center"> Mindroid: Welcome </h3>
+    <div class="messages">
+    <label for="message"> Message </label>
+    <input type="message" class="form-control" id="message" name="message" placeholder="Enter Message"/>
     </div>
-  </form>
+    <br />
+    <button type="submit" class="btn btn-primary">Send</button>
+
+  {{text}}
 {% endblock %}
