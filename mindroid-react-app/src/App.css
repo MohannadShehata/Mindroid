@@ -31,7 +31,13 @@
   border-radius: 0 0 10px 10px;
 }
 
+.str-chat__date-separator {
+  display: none;
+}
 
+.str-chat__message--deleted-inner{
+  display: none;
+}
 
 .App-logo {
   height: 40vmin;

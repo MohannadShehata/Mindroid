@@ -26,6 +26,11 @@ const channel = chatClient.channel('messaging', 'custom_channel_id', {
   members: ['bitter-moon-3'],
 });
 
+const getText = (event) => {
+  if(event.keyCode === 13) {
+    console.log("Works")
+  }
+}
 
 const App = () => (
   <>
@@ -49,6 +54,7 @@ const App = () => (
         </Chat>
       </div>
     </div>
+    
   </> 
 );
 
