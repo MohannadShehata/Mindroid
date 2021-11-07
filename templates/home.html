@@ -1,10 +1,12 @@
 {% extends "layout.html" %}
-{% block content%}
 
-  {% for post in posts %}
-    <h1> {{post.title }}</h1>
-    <h2> VARIETY OF OPTIONS </h2>
-    <p>By {{post.author }} on {{post.date_posted }} </p>
-    <p>{{post.content }}</p>
-  {% endfor %}
-{% endblock content %}
+{% block content%}
+  <h1> THIS IS HOME PAGE </h1>
+  <form method="POST">
+    <h3 align="center"> Sign Up </h3>
+    <div> 
+      <label for="message"> Message </label>
+      <input type="message" id="message" name="message" placeholder="Enter Message"/>
+    </div>
+  </form>
+{% endblock %}
