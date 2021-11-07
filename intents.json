@@ -1,0 +1,22 @@
+{"intents": [
+    {
+        "tag": "greetings",
+        "patterns": ["hello", "hey", "hi", "whats up"],
+        "responses": ["Hello", "How can I help you?"]
+    },
+    {
+        "tag": "time",
+        "patterns": ["hello", "hey", "hi", "whats up"],
+        "responses": ["Hello", "How can I help you?"]
+    },
+    {
+        "tag": "age",
+        "patterns": ["hello", "hey", "hi", "whats up"],
+        "responses": ["Hello", "How can I help you?"]
+    },
+    {
+        "tag": "health",
+        "patterns": ["hello", "hey", "hi", "whats up"],
+        "responses": ["Hello", "How can I help you?"]
+    }
+]}
